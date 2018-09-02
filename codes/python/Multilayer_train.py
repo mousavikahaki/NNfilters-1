@@ -45,8 +45,8 @@ pad_z = 3 # padding in z
 learning_rate = 0.1
 keep_p = 1 # 1 - drop out probability
 batch_size = 50 # batch size
-max_train_steps = int(3e6) # maximum number of training steps
-plotting_step = int(5e4) # update of the loss plot
+max_train_steps = int(3e2) # maximum number of training steps
+plotting_step = int(1e2) # update of the loss plot
 
 ################### paths
 data_dir = '../../data/L1/'
@@ -56,7 +56,7 @@ valid_IM_name = 'image_4.tif'
 valid_label_name = 'label_4.tif'
 
 model_dir = '../../data/training_result/'
-folder_name = 'CTC_pad_1'
+folder_name = 'Multilayer_1'
 cf.createFolder(model_dir + folder_name)
 
 ###################

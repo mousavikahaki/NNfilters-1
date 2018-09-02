@@ -33,8 +33,8 @@ win_z = 8 # z size of input and output, positive integer
 learning_rate = 1
 keep_p = 0.8 # 1 - drop out probability
 batch_size = 50 # batch size
-max_train_steps = int(2e4) # maximum number of training steps
-plotting_step = int(1e3) # update of the loss plot 
+max_train_steps = int(2e1) # maximum number of training steps
+plotting_step = int(1e1) # update of the loss plot 
 
 ################### paths
 data_dir = '../../data/L1/'

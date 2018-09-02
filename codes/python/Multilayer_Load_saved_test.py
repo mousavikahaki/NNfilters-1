@@ -34,7 +34,7 @@ test_IM_name = 'image_5.tif'
 test_label_name = 'label_5.tif' 
 
 model_dir = '../../data/training_result/'
-folder_name = 'CTC_0'
+folder_name = 'Multilayer_1'
 
 ################### loading parameters
 data = np.load(model_dir+folder_name+'/var.npz')
