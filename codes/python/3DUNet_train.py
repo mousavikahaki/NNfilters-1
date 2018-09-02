@@ -43,7 +43,7 @@ train_label_list = ['label_1.tif','label_2.tif','label_3.tif','label_6.tif']
 valid_IM_name = 'image_4.tif'
 valid_label_name = 'label_4.tif'
 
-model_dir = '../../data/training_result/'
+model_dir = '../../data/Training_result/'
 folder_name = '3DUNet_1'
 cf.createFolder(model_dir + folder_name)
 ################### 
@@ -175,7 +175,7 @@ while s < max_train_steps:
   s = s + 1
   
   if s % plotting_step == 0:
-    model.save('../../data/training_result/'+folder_name+'/model'+str(s))
+    model.save(model_dir+folder_name+'/model'+str(s))
     valid_loss_acc = model.evaluate(x=x_val,y=y_val)
     vl, = plt.plot(s,valid_loss_acc[0], 'go')
     hl, = plt.plot(s,history.history['loss'], 'ro')

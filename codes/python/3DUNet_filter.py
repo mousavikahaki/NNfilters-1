@@ -36,7 +36,7 @@ data_dir = '../../data/L1/'
 test_IM_name = 'image_5.tif' 
 test_label_name = 'label_5.tif' 
 
-model_dir = '../../data/training_result/'
+model_dir = '../../data/Training_result/'
 folder_name = '3DUNet_0'
 
 ################### loading parameters

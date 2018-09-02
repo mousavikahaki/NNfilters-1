@@ -55,8 +55,8 @@ train_label_list = ['label_1.tif','label_2.tif','label_3.tif','label_6.tif']
 valid_IM_name = 'image_4.tif'
 valid_label_name = 'label_4.tif'
 
-model_dir = '../../data/training_result/'
-folder_name = 'Multilayer_1'
+model_dir = '../../data/Training_result/'
+folder_name = 'MultilayerNN_1'
 cf.createFolder(model_dir + folder_name)
 
 ###################

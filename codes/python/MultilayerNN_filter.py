@@ -33,8 +33,8 @@ data_dir = '../../data/L1/'
 test_IM_name = 'image_5.tif' 
 test_label_name = 'label_5.tif' 
 
-model_dir = '../../data/training_result/'
-folder_name = 'Multilayer_1'
+model_dir = '../../data/Training_result/'
+folder_name = 'MultilayerNN_0'
 
 ################### loading parameters
 data = np.load(model_dir+folder_name+'/var.npz')

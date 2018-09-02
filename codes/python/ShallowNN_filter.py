@@ -23,8 +23,8 @@ data_dir = '../../data/L1/'
 test_IM_name = 'image_5.tif' 
 test_label_name = 'label_5.tif' 
 
-model_dir = '../../data/training_result/'
-folder_name = 'Shallow_1'
+model_dir = '../../data/Training_result/'
+folder_name = 'ShallowNN_0'
 
 ############### loading parameters
 model_var = np.load(model_dir+folder_name+'/var.npz')
