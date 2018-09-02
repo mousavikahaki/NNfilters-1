@@ -24,7 +24,7 @@ We constructed three artificial neural network (NN) filters that can be used to 
 
 ### Input and output ###
 
-* Input and output: Input and label images must be in an 8-bit multi-layer tiff format. The output is a numpy array of the same size as the input and the label. The output values are in the 0-1 range.
+* Input and output: Input and label images must be in an 8-bit multipage tiff format. The output is a numpy array of the same size as the input and the label. The output values are in the 0-1 range.
 
 ### Training NN filters ###
 
