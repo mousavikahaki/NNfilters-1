@@ -2,6 +2,7 @@
 
 We constructed three artificial neural network (NN) filters that can be used to enhance 3D images of neurites prior to automated tracing. Python codes for these filters are provided here along with three trained networks. 
 
+## Requirements ##
 ### Requirements ###
 
 * Python version 3.6, Tensorflow, and Keras 1.0 or later.
